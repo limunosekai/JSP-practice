@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+:root {
+	--body-color: #5f9ea0;
+	--black-color: #8fbc8f;
+	--title-color: #e0ffff;
+	--value-color: #b0e0e6;
+	--bar-color: #778899;
+}
+
+body {
+	background-color: var(--body-color);
+	font-size: 9pt;
+	color: black;
+	line-height: 160%;
+	font-family: 굴림, verdana, tahoma;
+}
+
+td {
+	background-color: var(--title-color);
+	font-size: 9pt;
+	color: black;
+	line-height: 160%;
+	font-family: 굴림, verdana, tahoma;
+}
+
+select {
+	font-size: 9pt;
+	color: black;
+	line-height: 160%;
+	font-family: 굴림, verdana, tahoma;
+}
+
+div {
+	font-size: 9pt;
+	color: black;
+	line-height: 160%;
+	font-family: 굴림, verdana, tahoma;
+}
+
+form {
+	font-size: 9pt;
+	color: black;
+	line-height: 160%;
+	font-family: 굴림, verdana, tahoma;
+}
+
+textarea {
+	border: 1px solid #999999;
+	font-size: 9pt;
+	font-family: 굴림, verdana, tahoma;
+	background: white;
+}
+
+input {
+	border: 1px solid #999999;
+	font-size: 9pt;
+	color: black;
+	font-family: 굴림, verdana;
+	height: 19px;
+	background: white;
+}
+
+a:link {
+	text-decoration: none;
+	color: #696969;
+}
+
+a:hover {
+	text-decoration: yes;
+	color: #66ccff;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #330066;
+}

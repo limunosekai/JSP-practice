@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+.list {
+	padding: 20px 0 20px;
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	background: #eee;
+}
+
+.list_table {
+	width: 700px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #595959;
+}
+
+.list_tr_title {
+	height: 30px;
+	background: #95bddc;
+	text-align: center;
+}
+
+.list_tr_board {
+	height: 30px;
+	background: #fbc6d0;
+	text-align: center;
+}
+
+.list_td_num, .list_td_read {
+	width: 50px;
+	text-align: center;
+}
+
+.list_td_sub {
+	width: 250px;
+	text-align: left;
+}
+
+.list_td_auth, .list_td_ip {
+	width: 100px;
+	text-align: center;
+}
+
+.list_td_date {
+	width: 150px;
+	text-align: center;
+}
+
+.img_level {
+	width: 5px;
+	height: 16px;
+}
+
+.img_hot {
+	border: 0;
+	height: 16px;
+}
+
+.form_table {
+	width: 500px;
+	border: 1px solid #595959;
+	display: block;
+	margin: 0 auto;
+}
+
+.form_title {
+	background: #95bddc;
+}
+
+.form_info {
+	width: 100px;
+	text-align: center;
+	background: #95bddc;
+}
+
+.form_input {
+	width: 400px;
+	background: #fbc6d0;
+}
+
+.form_button {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.form_button input {
+	margin-left: 10px;
+	background: #fbc6d0;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.form_input input {
+	width: 300px;
+}
+
+.form_input textarea {
+	width: 300px;
+	height: 300px;
+}
+
+.content {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	background: #eee;
+}
+
+.content_table {
+	width: 500px;
+	border: 1px solid #595959;
+	display: block;
+	margin: 0 auto;
+}
+
+.content_title {
+	height: 30px;
+	background: #95bddc;
+}
+
+.content_title td {
+	text-align: center;
+	width: 125px;
+}
+
+.content_title td pre {
+	width: 375px;
+	text-align: left;
+}
+
+.updateForm {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	background: #eee;
+}
+
+.updateForm_table {
+	width: 400px;
+	border: 1px solid #595959;
+	display: block;
+	margin: 0 auto;
+}
+
+.updateForm_title {
+	width: 70px;
+	text-align: center;
+	background: #95bddc;
+}
+
+.updateForm_input {
+	background: #fbc6d0;
+	width: 330px;
+}
+
+.updateForm_input input {
+	width: 90%;
+}
+
+.updateForm_input textarea {
+	width: 90%;
+	height: 300px;
+}
+
+.updateForm_button {
+	background: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.updateForm_button input {
+	margin-left: 20px;
+	background: #fbc6d0;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.deleteForm {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.deleteForm_table {
+	width: 360px;
+	border: 1px solid #595959;
+	display: block;
+	margin: 0 auto;
+	background: #eee;
+}
+
+.deleteForm_tr {
+	height: 30px;
+	text-align: center;
+}
+
+.deleteForm_tr td {
+	text-align: center;
+	width: 360px;
+}
+
+.deleteForm_button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.deleteForm_button input {
+	margin-left: 20px;
+	background: #fbc6d0;
+	border-radius: 5px;
+	padding: 5px;
+}
